@@ -4,5 +4,6 @@
 
 C언어로 구현된 파일 이름 일괄 변경기  
 [여기](https://github.com/pgh268400/FileChanger_CPP)로 가시면 C++로 개선한 버전이 있습니다.
+수정된 dirent.h 안에 있는 구조체에 의존하고 있습니다.
 
 - Compiler : GCC Compiler / Visual Studio 2022 Compiler (only compile at C99 or C11)
