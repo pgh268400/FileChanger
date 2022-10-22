@@ -4,8 +4,8 @@
 #include <string.h>
 #include "file.h"
 
+// 파일의 갯수 관리하는 전역 변수
 int count = 0;
-const char ascii_art[] = "______  _  _         _____  _                                      \n|  ___|(_)| |       /  __ \\| |                                     \n| |_    _ | |  ___  | /  \\/| |__    __ _  _ __    __ _   ___  _ __ \n|  _|  | || | / _ \\ | |    | '_ \\  / _` || '_ \\  / _` | / _ \\| '__|\n| |    | || ||  __/ | \\__/\\| | | || (_| || | | || (_| ||  __/| |   \n\\_|    |_||_| \\___|  \\____/|_| |_| \\__,_||_| |_| \\__, | \\___||_|   \n                                                  __/ |            \n                                                 |___/\n";
 
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	char file_path[200];
 	//첫 시작화면 렌더링
 	draw_border();
-	printf("%s\n", ascii_art);
+	printf("%s\n", ASCII_ART);
 	printf("간편 파일이름 변경기 v0.2\n");
 	draw_border();
 
